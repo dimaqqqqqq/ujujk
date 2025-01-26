@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Портфоліо</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline-block;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+        .about, .projects, .contact {
+            padding: 50px 0;
+            text-align: center;
+        }
+        .about h2, .projects h2, .contact h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+        .projects .project-item {
+            display: inline-block;
+            width: 30%;
+            margin: 1.5%;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .projects .project-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .project-item button {
+            background-color: #333;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin-top: 15px;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .project-item button:hover {
+            background-color: #555;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .social-icons a {
+            color: white;
+            margin: 0 10px;
+            font-size: 20px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Моє Портфоліо</h1>
+    <nav>
+        <ul>
+            <li><a href="#about">Про мене</a></li>
+            <li><a href="#projects">Проекти</a></li>
+            <li><a href="#contact">Контакти</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div class="container">
+
+    <section id="about" class="about">
+        <h2>Про мене</h2>
+        <p>Привіт! Я веб-розробник з досвідом у створенні адаптивних та інтерактивних веб-сайтів. Мої навички включають HTML, CSS, JavaScript, а також використання різних фреймворків для ефективної розробки.</p>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>Мої Проекти</h2>
+        <div class="project-item">
+            <img src="https://i.postimg.cc/jj4PBQdV/DALL-E-2025-01-26-13-42-08-A-cartoon-style-cockroach-wearing-a-traditional-Mexican-sombrero-with.webp" alt="Проект 1">
+            <h3>Проект 1</h3>
+            <p>я згенерував цю фотку  в честь діми тому що він не прейшов на курси😭😭😭</p>
+            <button onclick="window.location.href='https://dimaqqqqqq.github.io/dm4trik/'">Переглянути</button>
+        </div>
+        <div class="project-item">
+            <img src="https://i.postimg.cc/N02jZR8s/DALL-E-2025-01-26-14-14-29-A-cute-cartoon-style-snake-sitting-on-a-tropical-beach-sipping-lemonad.webp" alt="Проект 2">
+            <h3>Проект 2</h3>
+            <p>ещькереее</p>
+            <button onclick="window.location.href='https://dimaqqqqqq.github.io/dima/'">Переглянути</button>
+        </div>
+        <div class="project-item">
+            <img src="https://i.postimg.cc/k5qTpyP8/DALL-E-2025-01-26-14-36-14-A-humorous-cartoon-style-scene-of-a-man-with-white-curly-hair-named-Di.webp" alt="Проект 3">
+            <h3>Проект 3</h3>
+            <p>Опис проекту 3. Це адаптивний веб-сайт, який коректно працює на мобільних пристроях.</p>
+            <button onclick="window.location.href='https://dimaqqqqqq.github.io/d42/'">Переглянути</button>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Контакти</h2>
+        <p>Якщо у вас є питання або ви хочете співпрацювати, зв'яжіться зі мною!</p>
+        <button onclick="showAlert()">Напишіть мені</button>
+    </section>
+
+</div>
+
+<footer>
+    <p>&copy; 2025 Моє Портфоліо</p>
+    <div class="social-icons">
+        <a href="#" target="_blank">Facebook</a>
+        <a href="#" target="_blank">LinkedIn</a>
+        <a href="#" target="_blank">GitHub</a>
+    </div>
+</footer>
+
+<script>
+    function showAlert() {
+        alert("Дякую за ваш інтерес! Я відповім якнайшвидше.");
+    }
+</script>
+
+</body>
+</html>
+
